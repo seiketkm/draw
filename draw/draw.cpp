@@ -8,7 +8,7 @@ xn::DepthGenerator depthGen;
 xn::ImageGenerator imageGen;
 xn::UserGenerator userGen;
 XnMapOutputMode outputMode;
-const char* CONFIG_XML_PATH = "config.xml";
+const char* CONFIG_XML_PATH = "./config.xml";
  
 void openni_init(){
     context.InitFromXmlFile(CONFIG_XML_PATH);// OpenNIコンテキストの作成
@@ -41,7 +41,7 @@ void getRedArea(cv::Mat hsv, cv::Mat redarea){
     out.copyTo(redarea);
 }
 void mainloop(){
-	std::string windowname = "image";
+	std::string windowname("image");
     cv::namedWindow(windowname, 0); // OpenCVウィンドウ作成
  
     // OpenNIからのデータ取得用

@@ -37,6 +37,7 @@
   </PropertyGroup>
   <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <PlatformToolset>Windows7.1SDK</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -93,7 +94,7 @@
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>E:\opencv231_bin\install\lib;C:\Program Files\OpenNI\Lib64;C:\Program Files\PrimeSense\NITE\Lib64</AdditionalLibraryDirectories>
-      <AdditionalDependencies>openNI64.lib;XnVCNITE64_1_5_2.lib;opencv_core231d.lib;opencv_imgproc231d.lib;opencv_highgui231d.lib</AdditionalDependencies>
+      <AdditionalDependencies>openNI64.lib;XnVCNITE64_1_5_2.lib;opencv_core231.lib;opencv_imgproc231.lib;opencv_highgui231.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>

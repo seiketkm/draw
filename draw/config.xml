@@ -27,7 +27,7 @@
       <Configuration>
 
         <Mirror on="true"/>
-
+        <MapOutputMode xRes="640" yRes="480" FPS="30"/>
       </Configuration>
 
     </Node>
@@ -37,7 +37,7 @@
       <Configuration>
 
         <Mirror on="true"/>
-
+        <MapOutputMode xRes="640" yRes="480" FPS="30"/>
       </Configuration>
 
     </Node>
